@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Страница приложения «Соседи»</title>
+    <style media="screen">
+
+      body {
+        font-family: 'Manrope', sans-serif;
+          width: 375px;
+          margin: 0 auto;
+          padding: 20px 40px;
+          box-sizing: border-box;
+          border-radius: 4px;
+        }
+
+      h1 {
+        position: absolute;
+        width: 143px;
+        height: 26px;
+        left: 116px;
+        top: 34px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        letter-spacing: -0.41px;
+        color: #3A4053;
+      }
+      .rectangle {
+        position: absolute;
+        width: 375px;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(160, 160, 160, 0.25);
+        border-radius: 4px;
+      }
+
+      .icon {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 16px;
+        top: 34px;
+      }
+
+      .addphoto {
+        position: absolute;
+        left: 0%;
+        right: 78.34%;
+        top: 0%;
+        bottom: 0%;
+        width: 60px;
+        height: 60px;
+        margin-top: 124px;
+        margin-left: 16px;
+      }
+
+      h2{
+        position: absolute;
+        width: 202px;
+        height: 24px;
+        left: 76px;
+        top: 18px;
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 24px;
+        letter-spacing: 0.35px;
+        margin-top: 124px;
+        margin-left: 16px;
+        color: #3A4053;
+      }
+
+      .righticon {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 334px;
+        top: 142px;
+      }
+
+      h3{
+        position: absolute;
+        width: 56px;
+        height: 16px;
+        left: 16px;
+        top: 208px;
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.24px;
+        color: #3A4053;
+      }
+
+      .link{
+        position: absolute;
+        width: 135px;
+        height: 24px;
+        left: 16px;
+        top: 232px;
+        margin-top: 8px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.24px;
+        color: #2349CB;
+      }
+
+      h4{
+        position: absolute;
+        width: 44px;
+        height: 16px;
+        left: 16px;
+        top: 280px;
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.24px;
+        color: #3A4053;
+      }
+
+      .about{
+        position: absolute;
+        width: 343px;
+        height: 72px;
+        left: 16px;
+        top: 304px;
+        margin-top: 8px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.24px;
+        color: #3A4053;
+      }
+
+      .link2{
+        position: absolute;
+        width: 176px;
+        height: 24px;
+        left: 16px;
+        top: 400px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.24px;
+        color: #2349CB;
+      }
+
+      h5{
+        position: absolute;
+        width: 107.57px;
+        height: 16px;
+        left: 16px;
+        top: 428px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: -0.24px;
+        color: #3A4053;
+      }
+
+      .rectangle1{
+        position: absolute;
+        width: 167px;
+        height: 115px;
+        left: 16px;
+        top: 458px;
+        margin-top: 14px;
+        background: #FFDDD8;
+        border-radius: 13px;
+      }
+
+      .title1 {
+        position: absolute;
+        left: 66px;
+        top: 470px;
+        right: 206px;
+        bottom: 401px;
+        height: 32px;
+        width: 107px;
+        margin-top: 10px;
+        font-family: Manrope;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        letter-spacing: -0.24px;
+        color: #3A4053;
+      }
+
+    .hammer {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 26px;
+      top: 469px;
+      margin-top: 9px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: -0.24px;
+      color: #000000;
+    }
+
+    .hammertext{
+      position: absolute;
+      width: 147px;
+      height: 57px;
+      left: 26px;
+      top: 508px;
+      margin-top: 10px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: -0.24px;
+      color: #3A4053;
+    }
+
+    .rectangle2 {
+      position: absolute;
+      width: 167px;
+      height: 115px;
+      left: 191px;
+      top: 458px;
+      margin-top: 14px;
+      border-radius: 13px;
+    }
+
+    .title2 {
+      position: absolute;
+      left: 201px;
+      top: 470px;
+      right: 206px;
+      bottom: 401px;
+      height: 32px;
+      width: 142px;
+      margin-top: 10px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 16px;
+      letter-spacing: -0.24px;
+      color: #FFFFFF;
+    }
+
+    .hammerpicturetext{
+      position: absolute;
+      width: 147px;
+      height: 57px;
+      left: 201px;
+      top: 508px;
+      margin-top: 10px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: -0.24px;
+      color: #FFFFFF;
+
+    }
+
+    .title3 {
+      position: absolute;
+      width: 107.57px;
+      height: 16px;
+      left: 16px;
+      top: 619px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: -0.24px;
+      color: #3A4053;
+    }
+
+    .rectangle3{
+      position: absolute;
+      width: 167px;
+      height: 115px;
+      left: 16px;
+      top: 626px;
+      margin-top: 14px;
+      background: #FFDDD8;
+      border-radius: 13px;
+    }
+
+    .monkey {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 26px;
+      top: 635px;
+      margin-top: 9px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: -0.24px;
+      color: #000000;
+    }
+
+    .monkeytitle {
+      position: absolute;
+      left: 66px;
+      top: 636px;
+      right: 206px;
+      bottom: 401px;
+      height: 32px;
+      width: 142px;
+      margin-top: 10px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 16px;
+      letter-spacing: -0.24px;
+      color: #3A4053;
+    }
+
+    .monkeytext{
+      position: absolute;
+      width: 147px;
+      height: 57px;
+      left: 26px;
+      top: 674px;
+      margin-top: 10px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: -0.24px;
+      color: #3A4053;
+    }
+
+    .rectangle4 {
+      position: absolute;
+      width: 167px;
+      height: 115px;
+      left: 191px;
+      top: 626px;
+      margin-top: 14px;
+      border-radius: 13px;
+    }
+
+    .title4 {
+      position: absolute;
+      left: 201px;
+      top: 636px;
+      right: 206px;
+      bottom: 401px;
+      height: 32px;
+      width: 142px;
+      margin-top: 10px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 16px;
+      letter-spacing: -0.24px;
+      color: #FFFFFF;
+    }
+
+    .garbagetext {
+      position: absolute;
+      width: 147px;
+      height: 57px;
+      left: 201px;
+      top: 674px;
+      margin-top: 10px;
+      font-family: Manrope;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: -0.24px;
+      color: #FFFFFF;
+    }
+
+
+      </style>
+  </head>
+    <div class="rectangle">
+      <p class="icon">
+        <a href='https://i.ibb.co/3m2bqmh/arrow-left.png' title='arrowleft'><img style="width:100%" src='https://i.ibb.co/3m2bqmh/arrow-left.png' alt='arrow-left.png'  /></a>
+      </p>
+    </div>
+
+    <h1>
+      Ваш профиль
+    </h1>
+
+    <div class="addphoto">
+      <a href='https://i.ibb.co/tx64RNS/Add-photo.png' title='profileadd'><img style="width:100%" src='https://i.ibb.co/tx64RNS/Add-photo.png' alt='Add photo.png'  /></a>
+    </div>
+
+    <h2>Алексей Соловьёв</h2>
+
+    <div class="righticon">
+      <a href='https://i.ibb.co/2ZXrQ4j/log-out.png' title='logout'><img style="width:100%" src='https://i.ibb.co/2ZXrQ4j/log-out.png' alt='Add photo.png'  /></a>
+    </div>
+
+    <h3>
+      Телефон
+    </h3>
+
+    <div class="link">
+      +7 915 339 39 39
+    </div>
+
+    <h4>
+      О себе
+    </h4>
+
+    <div class="about">
+      Пекарь в пекарне, регулярно пеку вкусные штуки, готов делиться и продавать свежий хлеб
+    </div>
+
+    <div class="link2">
+      instagram.com/pepe
+    </div>
+
+    <h5>
+      Мои объявления
+    </h5>
+
+    <div class="rectangle1">
+    </div>
+
+    <div class="title1">
+      Очень нужен молоток
+    </div>
+
+    <div class="hammer">
+      🔨
+    </div>
+
+    <div class="hammertext">
+      Привет, соседи! Выручите, пожалуйста, молотком, очень нужен всего на полчасика, в благодарно...
+    </div>
+
+    <div class="rectangle2">
+      <a href='https://i.ibb.co/XXhZdVL/Background.png' title='hammer'><img style="width:100%" src='https://i.ibb.co/XXhZdVL/Background.png' alt='hammer.png'  /></a>
+    </div>
+
+    <div class="title2">
+      Очень нужен молоток
+    </div>
+
+    <div class="hammerpicturetext">
+      Привет, соседи! Выручите, пожалуйста, молотком, очень нужен всего на полчасика, в благодарно...
+    </div>
+
+    <div class="title3">
+      Мои чаты
+    </div>
+
+    <div class="rectangle3">
+    </div>
+
+    <div class="monkey">
+      🙊
+    </div>
+
+    <div class="monkeytitle">
+      Выбираем стоматолог...
+    </div>
+
+    <div class="monkeytext">
+      Давайте проголосуем за лучшую стоматологию на районе. Нужно лечение зубов у взрослых и дете...
+    </div>
+
+    <div class="rectangle4">
+      <a href='https://i.ibb.co/YbgR88m/Backgroundgbg.png' title='garbage'><img style="width:100%" src='https://i.ibb.co/YbgR88m/Backgroundgbg.png' alt='garbage.png'  /></a>
+    </div>
+
+    <div class="title4">
+      Выбираем подрядчика для р...
+    </div>
+
+    <div class="garbagetext">
+      Голосование по поводу компании, которая будет обслуживать раздельный сбор муора в нашем дом...
+    </div>
+
+
+</html>
